@@ -1,0 +1,168 @@
+name: blinkit_series
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^4.15.0
+  google_sign_in: ^6.1.5
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1  
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/land_tree_dark.png
+    - assets/images/Afghani_chicken_tikka.JPG
+    - assets/images/Afghanichicken.JPG
+    - assets/images/Butterchickenbone.JPG
+    - assets/images/Butterchickenboneless.JPG
+    - assets/images/Buttertandooriroti.JPG
+    - assets/images/cart.jpeg.jpg
+    - assets/images/cart.png
+    - assets/images/Chicken_biryani.JPG
+    - assets/images/Chicken_malai_tangri.JPG
+    - assets/images/Chicken_malai_tikka.JPG
+    - assets/images/Chicken_tandoori_tangri.JPG
+    - assets/images/Chicken_tikka.JPG
+    - assets/images/Chickenbarra.JPG
+    - assets/images/Chickenghreroast.JPG
+    - assets/images/Chickenseekkabab.JPG
+    - assets/images/Dalfry.JPG
+    - assets/images/Egg_roast_biryani.JPG
+    - assets/images/Fish_tikka.JPG
+    - assets/images/Gulab_jamoon.PNG
+    - assets/images/home 1.png
+    - assets/images/Hyderabadi_chicken_biryani.JPG
+    - assets/images/image 50 (1).png
+    - assets/images/Jeerarice.JPG
+    - assets/images/Kadhaichickenbone.JPG
+    - assets/images/Kadhaichickenboneless.JPG
+    - assets/images/Kadhaipanner.JPG
+    - assets/images/Kulhad_chicken_biryani.JPG
+    - assets/images/Kulhad_egg_biryani.JPG
+    - assets/images/Kulladchicken.JPG
+    - assets/images/Kulladeggmasala.JPG
+    - assets/images/Kulladmutton.JPG
+    - assets/images/land_tree_dark.png
+    - assets/images/land_tree_light.png
+    - assets/images/Malai_soya_chaap.JPG
+    - assets/images/Manchowsoup.JPG
+    - assets/images/Masalachaach.JPG
+    - assets/images/Matarmushroom.JPG
+    - assets/images/Mattarpanner.JPG
+    - assets/images/mic 1.png
+    - assets/images/Mixvegbiryani.JPG
+    - assets/images/Mushroomchillidry.JPG
+    - assets/images/Mushroomtikkamasala.JPG
+    - assets/images/Mutton biryani.PNG
+    - assets/images/Mutton handi.JPEG.jpg
+    - assets/images/order.png
+    - assets/images/orders.png
+    - assets/images/Paneerlababdar.JPG
+    - assets/images/Panner_malai_tikka.JPG
+    - assets/images/Panner_pakoda.JPG
+    - assets/images/Panner_tikka.JPG
+    - assets/images/Pannerbuttermasala.JPG
+    - assets/images/Pannertikkamasala.JPG
+    - assets/images/patna-biryani-logo-trans.png
+    - assets/images/potato.png
+    - assets/images/Plainrice.JPG
+    - assets/images/Plaintandooriroti.JPG
+    - assets/images/printer 1.png
+    - assets/images/profile.jpeg.jpg
+    - assets/images/Rasgulla.JPG
+    - assets/images/search.png
+    - assets/images/Shahipanner.JPG
+    - assets/images/shopping-bag 1.png
+    - assets/images/Soya_chaap_barra.JPG
+    - assets/images/Soya_chaap_masala.JPG
+    - assets/images/Soya_chaap.JPG
+    - assets/images/star.png
+    - assets/images/Sun-trans.png
+    - assets/images/Sun.png
+    - assets/images/Tandoorichicken.JPG
+    - assets/images/timer 4.png
+    - assets/images/tree and area.png
+    - assets/images/tree_land_night@2x.png
+    - assets/images/user.png
+    
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: bold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+    - family: regular
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
